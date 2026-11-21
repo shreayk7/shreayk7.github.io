@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Forecasting route-level uncertainty | Shreay Kacheria</title>
+  <meta name="description" content="Research at Purdue's Krenicki Center: coherent probabilistic forecasts for an AI-driven logistics simulation, using temporal convolutions that preserve time order. In progress.">
+  <meta name="author" content="Shreay Kacheria">
+  <meta name="color-scheme" content="light">
+  <meta name="theme-color" content="#ffffff">
+  <link rel="canonical" href="https://shreayk7.github.io/logistics-forecasting.html">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fontsource-variable/archivo@5.3.0/files/archivo-latin-wdth-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="site.css">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Shreay Kacheria">
+  <meta property="og:title" content="Forecasting route-level uncertainty | Shreay Kacheria">
+  <meta property="og:description" content="Research at Purdue's Krenicki Center: coherent probabilistic forecasts for an AI-driven logistics simulation, using temporal convolutions that preserve time order. In progress.">
+  <meta property="og:url" content="https://shreayk7.github.io/logistics-forecasting.html">
+  <meta property="og:image" content="https://shreayk7.github.io/og-card.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Shreay Kacheria. Business analytics at Purdue, looking for data analyst roles.">
+  <meta name="twitter:card" content="summary_large_image">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <a class="brand" href="index.html" aria-label="Shreay Kacheria, home"><span class="brand-mark" aria-hidden="true">SK</span><span class="brand-name">Shreay Kacheria</span></a>
+    <nav class="nav" aria-label="Main">
+      <a href="index.html#work" aria-current="true">Work</a>
+      <a href="about.html">About</a>
+      <a href="https://www.linkedin.com/in/shreay-kacheria/">LinkedIn</a>
+      <a href="mailto:skacheri@purdue.edu">Email</a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <header class="page-head">
+      <h1 class="case-title">Forecasting <span class="nowrap">route-level</span> uncertainty for an AI logistics simulation</h1>
+      <p class="lede">I&rsquo;m a researcher on an eight-member team at Purdue&rsquo;s Krenicki Center for Business Analytics and Machine Learning, where I develop coherent probabilistic forecasts for an AI-driven logistics simulation.</p>
+    </header>
+
+    <dl class="facts">
+      <div><dt>My role</dt><dd>Researcher</dd></div>
+      <div><dt>Team</dt><dd>Eight members</dd></div>
+      <div><dt>Where</dt><dd>Krenicki Center for Business Analytics and Machine Learning, Purdue University</dd></div>
+      <div><dt>When</dt><dd>September 2026 to now</dd></div>
+      <div><dt>Status</dt><dd>In progress</dd></div>
+    </dl>
+
+    <section class="case-section" aria-labelledby="problem">
+      <h2 id="problem">The problem</h2>
+      <div class="prose">
+        <p>A probabilistic forecast gives a range of likely outcomes instead of a single number, so it shows how uncertain each prediction is. In this project, the forecasts quantify that uncertainty route by route.</p>
+      </div>
+    </section>
+
+    <section class="case-section" aria-labelledby="approach">
+      <h2 id="approach">What I&rsquo;m doing</h2>
+      <div class="prose">
+        <p>I use temporal convolutions that preserve strict temporal ordering: each forecast only uses information from earlier in time, never later.</p>
+      </div>
+      <figure class="fig">
+        <svg class="conv" viewBox="0 0 640 260" role="img" aria-labelledby="conv-title"><title id="conv-title">Illustration: one output (highlighted) is connected only to the current and two earlier time steps. Later time steps are not connected to it.</title><line x1="60" y1="187" x2="60" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="60" y1="187" x2="134" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="134" y1="187" x2="134" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="60" y1="187" x2="208" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="134" y1="187" x2="208" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="208" y1="187" x2="208" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="134" y1="187" x2="282" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="208" y1="187" x2="282" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="282" y1="187" x2="282" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="208" y1="187" x2="356" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="282" y1="187" x2="356" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="356" y1="187" x2="356" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="282" y1="187" x2="430" y2="85" stroke="#000" stroke-width="3"/><line x1="356" y1="187" x2="430" y2="85" stroke="#000" stroke-width="3"/><line x1="430" y1="187" x2="430" y2="85" stroke="#000" stroke-width="3"/><line x1="356" y1="187" x2="504" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="430" y1="187" x2="504" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="504" y1="187" x2="504" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="430" y1="187" x2="578" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="504" y1="187" x2="578" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><line x1="578" y1="187" x2="578" y2="83" stroke="#d6d6d6" stroke-width="1.5"/><circle cx="60" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="134" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="208" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="282" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="356" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="430" cy="70" r="15" fill="#ffd60a" stroke="#000" stroke-width="3"/><circle cx="504" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="578" cy="70" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="60" cy="200" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="134" cy="200" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="208" cy="200" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2"/><circle cx="282" cy="200" r="12" fill="#000"/><circle cx="356" cy="200" r="12" fill="#000"/><circle cx="430" cy="200" r="12" fill="#000"/><circle cx="504" cy="200" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 4"/><circle cx="578" cy="200" r="11" fill="#fff" stroke="#bdbdbd" stroke-width="2" stroke-dasharray="4 4"/><text x="430" y="32" text-anchor="middle">one forecast</text><text x="46" y="248">earlier</text><text x="592" y="248" text-anchor="end">later</text></svg>
+        <figcaption>How a time-ordered (causal) convolution works: each output draws only on the current and earlier steps. An illustration of the method, not project data.</figcaption>
+      </figure>
+    </section>
+
+    <nav class="case-next" aria-label="Next case study">
+      <p>Next case study</p>
+      <a href="cloud-migration.html">Moving a pharma company&rsquo;s BI apps to Qlik Cloud</a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-row">
+        <p>Shreay Kacheria</p>
+        <ul class="footer-links">
+          <li><a href="mailto:skacheri@purdue.edu">skacheri@purdue.edu</a></li>
+          <li><a href="https://www.linkedin.com/in/shreay-kacheria/">LinkedIn</a></li>
+        </ul>
+      </div>
+      <p class="footer-credit">&copy; 2026 Shreay Kacheria. Built with plain HTML and CSS: no template, no trackers, no cookies. Set in Archivo by Omnibus-Type (SIL Open Font License). Black and yellow, after Mumbai&rsquo;s taxis and Purdue&rsquo;s black and gold.</p>
+    </div>
+  </footer>
+</body>
+</html>
