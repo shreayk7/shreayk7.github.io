@@ -11,7 +11,7 @@ Edit a file on GitHub (pencil icon), commit, and the site updates within a few m
 | File | What it is |
 |---|---|
 | `index.html` | Home: intro, four case studies, contact |
-| `about.html` | Story, a to-scale timeline, experience, education, skills, recognition |
+| `about.html` | Story, a timeline (newest first), experience, education, skills, recognition |
 | `cloud-migration.html`, `ai-in-education.html`, `bank-credit.html`, `logistics-forecasting.html` | One page per case study |
 | `404.html` | Shown for any address that doesn't exist |
 | `site.css` | All styles. Colors and sizes are at the top, under `:root` |
@@ -26,13 +26,9 @@ Edit a file on GitHub (pencil icon), commit, and the site updates within a few m
 
 The photo shows in black and white with a yellow block behind it. To keep it in color, delete the `filter:` line under `.portrait img` in `site.css`.
 
-## The "today" line
-
-The yellow line on the About page timeline moves to the current date by itself (a short script at the bottom of `about.html`). Without JavaScript it stays at November 2026.
-
 ## Design notes
 
-- **Black, white and one yellow.** Yellow works like a highlighter: it marks results, the page you're on, and today on the timeline. Mumbai's taxis are black and yellow; Purdue's colors are black and gold.
+- **Black, white and one yellow.** Yellow works like a highlighter: it marks results, the page you're on, and what I'm doing now on the timeline.
 - **One typeface.** Archivo, using its width axis: wide for names and headings, condensed for numbers.
 - **Every number is real.** Figures come from my own work. Charts are drawn only from those numbers, and diagrams that show a method or setup say so in their captions.
 
